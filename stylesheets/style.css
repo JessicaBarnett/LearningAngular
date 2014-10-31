@@ -9,6 +9,37 @@
 	clear: both;
 }
 
+
+/* Buttons */
+
+div.linkContainer{
+	width: 70%;
+	margin: 0 auto;
+}
+
+
+button{
+	background-color: lawngreen;
+	float: left;
+	width: 10%;
+	min-height: 3rem;
+	font-size: 1rem;
+	padding: .3rem;
+	margin: 1rem 2%;
+	border: none;
+
+}
+
+.linkContainer button{
+	width: 40%;
+	min-height: 5rem;
+}
+
+button:hover{
+	background-color: lightgreen;
+}
+
+
 /*the color-changing trick on page 1*/
 
 .blue{
